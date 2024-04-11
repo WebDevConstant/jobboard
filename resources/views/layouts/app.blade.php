@@ -48,10 +48,10 @@
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               @guest
                             @if (Route::has('login'))
-                                <li class="d-lg-none"><a href="{{ route('login') }}">Log In</a></li>
+                                <li class=""><a href="{{ route('login') }}">Log In</a></li>
                             @endif
                             @if (Route::has('register'))
-                                <li class="d-lg-none"><a href="{{ route('register') }}">Register</a></li>
+                                <li class=""><a href="{{ route('register') }}">Register</a></li>
                             @endif
               @else
                             <li class="nav-item dropdown">
