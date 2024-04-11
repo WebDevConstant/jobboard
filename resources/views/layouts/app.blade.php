@@ -37,8 +37,7 @@
       <div class="container-fluid">
         <div  class="row align-items-center">
           <div class="site-logo col-6"><a href="{{ url('/') }}">JobBoard</a></div>
-
-          <nav style="padding-left:544px;" class="mx-auto site-navigation">
+          <nav style="padding-left:545px;" class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
               <li><a href="index.html" class="nav-link active">Home</a></li>
               <li><a href="about.html">About</a></li>
